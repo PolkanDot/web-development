@@ -1,0 +1,630 @@
+body
+{
+	   margin: 0 0 0 0;
+}
+.menu
+{
+	   background-color: #ffffff;
+	   height: 35px;
+}
+
+.first_menu_button
+{
+	   margin: 0 0 0 24.95%;
+	   height: 27px;
+	   width: 99px;
+    background: url("../img/about_me_icon_not_active.png") no-repeat 15px 12px; 
+    background-size: 10%;
+	   float: left;
+	   padding: 8px 0 0 0;
+}
+
+.first_menu_button:hover
+{
+    background: url("../img/about_me_icon_active.svg") no-repeat 15px 12px; 
+    background-size: 10%;
+    background-color: #15A98C;
+}
+.first_menu_button:hover .first_menu_link
+{
+    color: #F5F5F5;
+}
+
+.first_menu_link
+{
+	   margin: 0 0 0 32px;
+	   text-decoration: none;
+	   font: 700 12px "Georgia";
+	   color: #333333;
+}
+
+.second_menu_button
+{
+	   height: 27px;
+	   float: left;
+	   padding: 8px 0 0 0;
+	   width: 112px;
+	   background: url("../img/hobby_icon.svg") no-repeat 14px 13px;
+	   background-size: 11%; 
+}
+
+.second_menu_button:hover 
+{
+	   background-color: #15A98C;
+}
+
+.second_menu_button:hover .second_menu_link
+{
+	   color: #F5F5F5;
+}
+.second_menu_link
+{
+	   margin: 0 0 0 32px;
+	   text-decoration: none;
+	   font: 700 11px "Georgia";
+	   color: #333333;
+}
+
+.third_menu_button
+{
+	   height: 27px;
+	   float: left;
+	   padding: 8px 0 0 0;
+	   width: 160px;
+	   background: url("../img/video_icon.svg") no-repeat 14px 12px; 
+	   background-size: 7%;
+}
+
+.third_menu_button:hover 
+{
+    background-color: #15A98C;
+}
+
+.third_menu_button:hover .third_menu_link
+{
+	   color: #F5F5F5;
+}
+
+.third_menu_link
+{
+	   margin: 0 0 0 32px;
+	   text-decoration: none;
+	   font: 700 11px "Georgia";
+	   color: #333333;
+}
+
+.menu_clear
+{
+	clear: left;
+}
+
+.info
+{
+	   background-color: #F9F9F9;
+	   margin: 0 auto;
+	   background: url("../img/sea.png") no-repeat 0px 0px; 
+    background-size: 100%;
+}
+
+.parts
+{
+	   width: 700px;
+	   margin: 0 auto;
+}
+
+.left-part
+{
+    margin: 148px 20px 50px 0;
+    float: left;
+}
+
+.left-part__portret
+{
+  	 width: 232px;
+	   height: 246px;
+	   border-radius: 3px;
+    background: url("../img/Portret.png") no-repeat -121px -44px;
+    background-size: 217%;
+    margin: 0px 0px 32px 12px;
+}
+
+.first-list
+{
+    font-size: 12px;
+    line-height: 25px;
+    color: #555555;
+    font-family: "Georgia";
+    margin: 0 0 30px 29px;
+    padding: 10px 0 0 0;
+    font-weight: 600;
+}
+
+.second-list
+{
+    font-size: 12px;
+    line-height: 25px;
+    color: #555555;
+    font-family: "Georgia";
+    margin: 0 0 0 26px;
+    padding: 8px 0 0 0;
+    font-weight: 600;
+}
+
+.second-list__second-second-line
+{
+    margin: 0 0 2px 1px;
+}
+
+.second-list__second-third-line
+{
+    margin: 0 0 1px 0;
+}
+
+.left-part__list-name
+{
+	   font-size: 16px;
+    color: #15a98c; 
+    font-family: "Open Sans";
+    margin: 0 0 0 13px;
+    font-weight: 600;
+}
+
+.right-part
+{
+	   margin: 94px 0px 43px 0px;
+	   float: left;
+}
+
+.quote-box
+{
+    margin: 0 0 0 0;
+}
+
+.quote-box__quote
+{
+	   width: 370px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    font-style: italic;
+    font-family: "Georgia";
+    margin: 71px 0 0 25px;
+}
+
+.quote-box__autor
+{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Open Sans";
+    margin: 7px 0px 0px 25px;
+    color: #FFFFFF; 
+}
+
+.text
+{
+    margin: 58px 0 0 22px;
+}
+
+.text__name
+{
+	   font-size: 33px;
+    line-height: 42px;
+    color: #333333;
+    font-weight: 700;
+    font-family: "Open Sans";
+    padding: 0 0 0 3px;
+    font-weight: 900;
+    margin: 0 0 0 2px; 
+}
+
+.text__line
+{
+	   width: 42px;
+    height: 4px;
+    border-radius: 3px;
+    background: url("../img/quotes.png") no-repeat 22px 3px;
+    background-color: #45c3aa;
+    margin: 15px 0 31px 2px;
+}
+
+.text__first-text
+{
+    font-size: 13px;
+    line-height: 23px;
+    color: #555555;
+    font-family: "Georgia";
+    margin-top: 20px;
+}
+
+.text__my-hobby
+{
+    font-size: 27px;
+    line-height: 42px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Open Sans";
+    margin: 20px 0 4px 0;
+}
+
+.text__second-text
+{
+    font-size: 12px;
+    line-height: 23px;
+    color: #555555;
+    font-family: "Georgia";
+    font-weight: normal;
+    margin: 0 0 29px 2px;
+}
+
+.link
+{
+    font-size: 13px;
+    color: #15a98b;
+    font-family: "Georgia";
+    text-decoration: none;
+    margin: 30px 0 0 23px;
+}
+
+.link__text
+{
+    text-decoration: underline;
+}
+
+.link::after
+{
+    content:' →';
+}
+
+.clear-info
+{
+	   clear: left;
+}
+
+.films_box
+{
+	   background-color: #F9F9F9;
+	   margin: 0 0 71px 0;
+}
+
+.films
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 843px;
+    margin: 0 auto;
+}
+
+.lovely-films
+{
+    font-size: 25px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Open Sans";
+    margin: 22px 0 22px 252px;
+}
+
+.film
+{
+	   width: 200px;
+	   
+}
+
+.film__title
+{
+    font-size: 15px;
+line-height: 32px;
+color: #333333;
+font-weight: 700;
+font-family: "Open Sans";
+margin: 0 0 8px 0;
+}
+
+.film__description
+{
+	   width: 195px;
+    font-size: 11px;
+line-height: 20px;
+color: #555555;
+font-family: "Georgia";
+}
+
+.fourth_film__description
+{
+	   width: 191px;
+    font-size: 11px;
+line-height: 20px;
+color: #555555;
+font-family: "Georgia";
+}
+
+.film__first-preview
+{
+	   height: 133px;
+	   width: 200px;
+	   background: url("../img/Побег из Шоушенка.png") no-repeat -55px 8px;
+	   margin: 0 0 11px 0;
+	   border-radius: 3px;
+	   background-size: 143%;
+	   background-color: #464646;
+}
+
+.film__second-preview
+{
+	   height: 133px;
+	   width: 200px;
+	   margin: 0 0 11px 0;
+	   background: url("../img/Наркоз.png") no-repeat -13px -18px;
+	   border-radius: 3px;
+	   background-size: 141%;
+
+}
+
+.film__third-preview
+{
+	   height: 133px;
+	   width: 200px;
+	   margin: 0 0 11px 0;
+	   background: url("../img/Астрал.png") no-repeat -39px -8px;
+	   border-radius: 3px;
+	   background-size: 142%;
+
+}
+
+.film__fourth-preview
+{
+	   height: 133px;
+	   width: 200px;
+	   margin: 0 0 11px 0;
+	   background: url("../img/Гравитация.png") no-repeat -12px -39px;
+	   border-radius: 3px;
+	   background-size: 141%;
+
+}
+
+.all-films-button
+{
+	   background-color: #15A98C;
+	   height: 26px;
+	   width: 116px;
+	   border-radius: 5px;
+	   margin: 32px 0 0 43.7%;
+	   padding: 8px 0 0 39px;
+}
+
+.all-films-button__link
+{
+	   font-size: 13px;
+	   color: #f5f5f5;
+font-family: "Georgia";
+	   color: #FFFFFF;
+	   text-decoration: none;
+}
+
+.text_me
+{
+	   display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 490px;
+    margin: 0 auto;
+}
+.text-me__line_left
+{
+    background: url(../img/line.png) no-repeat center center;
+    background-size: 100%;
+    width: 140px;
+}
+
+.text-me__line_right
+{
+    background: url(../img/line.png) no-repeat center center;
+    background-size: 100%;
+    width: 140px;
+}
+
+.text-me__name
+{
+	   font-size: 26px;
+color: #333333;
+font-weight: 300;
+font-family: "Open Sans";
+}
+
+.first-input
+{
+	   width: 380px; 
+	margin: 0 auto;
+	margin-top: 46px;
+}
+.your-name
+{
+	   font-size: 14px;
+    color: #333333;
+font-weight: 400;
+font-family: "Open Sans";
+    margin: 0 0 5px 0;
+}
+
+.your-name::after
+{
+    content:" *";
+    color: #EE0707;
+}
+
+.name
+{
+    width: 371px;
+    height: 28px;
+    border-color: #C9C9C9;
+}
+
+.second-input
+{
+	   width: 380px; 
+	margin: 0 auto;
+	margin-top: 18px;
+}
+
+.your-email
+{
+	   font-size: 14px;
+    color: #333333;
+font-weight: 400;
+font-family: "Open Sans";
+    margin: 0 0 5px 0;
+}
+
+.your-email::after
+{
+    content:" *";
+    color: #EE0707;
+}
+
+.email
+{
+    width: 371px;
+    height: 28px;
+    border-color: #C9C9C9;    
+}
+
+.third-input
+{
+	   width: 380px; 
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.your-country
+{
+	   font-size: 14px;
+    color: #333333;
+font-weight: 400;
+font-family: "Open Sans";
+    margin: 0 0 5px 0;
+}
+
+.country
+{
+	   font-size: 13px;
+	   color: #555555;
+    width: 380px;
+    height: 35px;
+    padding: 0 0 0 12px; 
+    appearance: none;
+    background: url('../img/arrow_down.png') no-repeat 349px center;
+    background-size: 4.5%;
+    border-color: #C9C9C9;
+}
+
+.fourth-input
+{
+    width: 384px;
+    margin: 30px auto;
+    margin-bottom: 0; 
+}
+
+.your-gender
+{
+	   font-size: 14px;
+    color: #333333;
+font-weight: 400;
+font-family: "Open Sans";
+margin: 0 0 10px 2px;
+}
+.human
+{
+	   font-size: 13px;
+	   color: #333333;
+font-weight: 400;
+font-family: "Open Sans";
+    margin: 0 0 0 0;
+}
+
+.first-radio
+{
+	   float: left;
+	   margin: 0 25px 0 0;
+}
+
+.second-radio
+{
+	   float: left;
+}
+
+.gender
+{
+    transform: scale(0.7);
+    margin: 0 0 0 0;
+}
+
+.clear-fourth-input
+{
+	   clear: left;
+}
+
+.five-input
+{
+    width: 380px;
+    margin: 0 auto;
+    margin-top: 27px;
+}
+.your-message
+{
+	   font-size: 14px;
+    color: #333333;
+font-weight: 400;
+font-family: "Open Sans";
+    margin: 0 0 3px 0;
+}
+
+.your-message::after
+{
+    content:" *";
+    color: #EE0707;
+}
+
+.message
+{
+	   resize: none;
+	   border-color: #C9C9C9;
+}
+
+.end-of-input
+{
+    width: 380px;
+    margin: 0 auto;	   
+}
+
+.send
+{
+	   background-color: #15A98C;
+	   margin: 28px 0 0 0;
+	   height: 34px;
+	   width: 155px;
+	   border-radius: 3px;
+	   font-size: 13px;
+	   color: #f5f5f5;
+    font-family: "Georgia";
+	   text-decoration: none;
+	   border: none;
+}
+
+.end-of-page
+{
+	   background-color: #F9F9F9;
+	   height: 30px;
+	   margin: 30px 0 0 0;
+	   padding: 22px ;
+}
+
+.pgtu
+{
+	   width: 500px;
+    font-size: 11px;
+    color: #555555;
+    font-family: "Georgia";
+    margin: 0 auto;
+}

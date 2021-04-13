@@ -1,0 +1,194 @@
+.left-part
+{
+    margin: 62px 20px 50px 231px;
+    float: left;
+}
+
+.left-part__portret
+{
+  	width: 232px;
+	  height: 246px;
+	  border-radius: 5px;
+    background: url('C:/Users/Polka Dot/FE/web-development/lw5/task1/img/Portret.png') no-repeat -121px -44px;
+    background-size: 217%;
+    margin: 0px 0px 32px 98px;
+}
+
+.first-list
+{
+    font-size: 11px;
+    line-height: 23px;
+    color: #555555;
+    font-family: "Georgia";
+    margin: 0 0 31px 115px;
+    padding: 11px 0 0 0;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.second-list
+{
+    font-size: 11px;
+    line-height: 24px;
+    color: #555555;
+    font-family: "Georgia";
+    margin: 0 0 0 113px;
+    padding: 9px 0 0 0;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.first-list__first-first-line
+{
+    margin: 0 0 2px 0;
+}
+
+.first-list__first-second-line
+{
+    margin: 0 0 3px 0;
+}
+
+.first-list__first-third-line
+{
+    margin: 0 0 1px 0;
+}
+
+.first-list__first-fourth-line
+{
+    margin: 0 0 0 0;
+}
+
+.second-list__second-first-line
+{
+    margin: 0 0 0 0;
+}
+
+.second-list__second-second-line
+{
+    margin: 0 0 2px 1px;
+}
+
+.second-list__second-third-line
+{
+    margin: 0 0 1px 0;
+}
+
+.left-part__list-name
+{
+	  font-size: 16px;
+    color: #15a98c; 
+    font-family: "Open Sans";
+    margin: 0 0 0 99px;
+    font-weight: bold;
+}
+
+.right-part
+{
+	  margin: 94px 0px 50px 0px;
+    float: left;
+}
+
+.quote-box
+{
+    margin: 0 0 0 0;
+    padding: 53px 0 0 0;
+    background: url('C:/Users/Polka Dot/FE/web-development/lw5/task1/img/quotes.png') no-repeat 22px 3px;
+    background-size: 24%;
+}
+
+.quote-box__quote
+{
+    font-size: 20px;
+    line-height: 29px;
+    color: #848484;
+    font-style: italic;
+    font-family: "Georgia";
+    margin: 0px 0px 0px 64px;
+}
+
+.quote-box__autor
+{
+    font-size: 11px;
+    font-weight: 600;
+    font-family: "Open Sans";
+    margin: 8px 0px 0px 67px;
+}
+
+.text
+{
+    margin: 106px 0 0 22px;
+}
+
+.text__name
+{
+	  font-size: 33px;
+    line-height: 42px;
+    color: #333333;
+    font-family: "Open Sans";
+    padding: 0 0 0 3px;
+    font-weight: 700; 
+    margin: 0 0 15px 0;
+}
+
+.text__line
+{
+	  width: 42px;
+    height: 4px;
+    border-radius: 3px;
+    background-color: #45C3AA;
+    margin: 0 0 31px 0;
+}
+
+.text__first-text
+{
+    font-size: 12px;
+    line-height: 23px;
+    color: #555555;
+    font-family: "Georgia";
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.text__my-hobby
+{
+    font-size: 23px;
+    line-height: 42px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Open Sans";
+    margin: 20px 0 4px 1px;
+    letter-spacing: 1px;
+}
+
+.text__second-text
+{
+    font-size: 12px;
+    line-height: 23px;
+    color: #555555;
+    font-family: "Georgia";
+    font-weight: normal;
+    margin: 0 0 29px 2px;
+}
+
+.link
+{
+    font-size: 13px;
+    color: #15a98b;
+    font-family: "Georgia";
+    text-decoration: none;
+    margin: 30px 0 0 25px;
+}
+
+.link__text
+{
+    text-decoration: underline;
+}
+
+.link::after
+{
+    content:' →';
+}
+ .clear
+{
+     clear: left;
+}
