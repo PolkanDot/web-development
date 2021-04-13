@@ -435,7 +435,7 @@ font-family: "Open Sans";
 
 .first-input
 {
-	   width: 380px; 
+	width: 380px; 
 	margin: 0 auto;
 	margin-top: 46px;
 }
@@ -456,14 +456,23 @@ font-family: "Open Sans";
 
 .name
 {
-    width: 371px;
-    height: 28px;
+    width: 364px;
+    height: 30px;
     border-color: #C9C9C9;
+    padding: 1px 0 1px 13px; 
+    border-width: 1px;
+    border-bottom-width: 2px;  
+    border-radius: 2px; 
+}
+
+.name:focus
+{
+    border-color: #15A98B;
 }
 
 .second-input
 {
-	   width: 380px; 
+	width: 380px; 
 	margin: 0 auto;
 	margin-top: 18px;
 }
@@ -474,7 +483,7 @@ font-family: "Open Sans";
     color: #333333;
 font-weight: 400;
 font-family: "Open Sans";
-    margin: 0 0 5px 0;
+    margin: 0 0 4px 0;
 }
 
 .your-email::after
@@ -485,16 +494,24 @@ font-family: "Open Sans";
 
 .email
 {
-    width: 371px;
-    height: 28px;
-    border-color: #C9C9C9;    
+    width: 364px;
+    height: 30px;
+    padding: 1px 0 1px 13px; 
+    border-width: 1px;
+    border-top-width: 2px; 
+    border-color: #A5A5A5; 
+    border-radius: 3px;       
 }
 
+.email:focus
+{
+    border-color: #15A98B;
+}
 .third-input
 {
 	   width: 380px; 
 	margin: 0 auto;
-	margin-top: 20px;
+	margin-top: 19px;
 }
 
 .your-country
@@ -516,9 +533,16 @@ font-family: "Open Sans";
     appearance: none;
     background: url('../img/arrow_down.png') no-repeat 349px center;
     background-size: 4.5%;
-    border-color: #C9C9C9;
+        border-width: 1px;
+    border-top-width: 2px; 
+    border-color: #A5A5A5; 
+    border-radius: 3px;
 }
 
+.country:focus
+{
+    border-color: #15A98B;
+}
 .fourth-input
 {
     width: 384px;
@@ -589,9 +613,15 @@ font-family: "Open Sans";
 .message
 {
 	   resize: none;
-	   border-color: #C9C9C9;
+	       border-width: 1px; 
+    border-color: #C9C9C9; 
+    border-radius: 3px;
 }
 
+.message:focus
+{
+    border-color: #15A98B;
+}
 .end-of-input
 {
     width: 380px;
@@ -604,6 +634,7 @@ font-family: "Open Sans";
 	   margin: 28px 0 0 0;
 	   height: 34px;
 	   width: 155px;
+       padding-top: 1px;
 	   border-radius: 3px;
 	   font-size: 13px;
 	   color: #f5f5f5;
