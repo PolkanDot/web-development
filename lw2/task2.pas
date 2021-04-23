@@ -8,29 +8,18 @@ BEGIN {SarahRevere}
   WRITELN('Content-Type: text/plain');
   WRITELN;
   InputData := GetEnv('QUERY_STRING');
-  Lanterns := 'lanterns=';
-  NumberOfFirstSymbol := POS(Lanterns, InputData);
-  IF NumberOfFirstSymbol <> 0
+  IF InputData = 'lanterns=1'
   THEN
-    BEGIN
-      Way := InputData[NumberOfFirstSymbol + 9];
-      IF (Way >= '1') AND (Way <= '3')
-      THEN
-        BEGIN
-          WRITE(' The British are coming by ');
-          IF Way = '1'
-          THEN
-            WRITELN('land');
-          IF Way = '2'
-          THEN
-            WRITELN('sea');
-          IF Way = '3'
-          THEN
-            WRITELN('air')
-        END
-      ELSE
-        WRITELN('We don''t know')
-    END
+    WRITELN(' The British are coming by land ')
   ELSE
-    WRITELN('We don''t know')
+    IF InputData = 'lanterns=2'
+    THEN
+      WRITELN(' The British are coming by sea ')
+    ELSE
+      IF InputData = 'lanterns=3'
+      THEN
+        WRITELN(' The British are coming by air ')
+      ELSE    
+        WRITELN('We don''t know');
 END. {SarahRevere}
+
