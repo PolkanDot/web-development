@@ -10,27 +10,26 @@ function WhichType(Digit) {
     }
   }
   if (Identifier) {
-    return console.log('Результат:', Digit, 'is prime number');
+    console.log('Результат:', Digit, 'is prime number');
   } else {
-      return console.log('Результат:', Digit, 'is not prime number');
+    console.log('Результат:', Digit, 'is not prime number');
   }
 }
 
 function isPrimeNumber(Сontent) {
   switch (typeof Сontent) {
     case 'number':
-      return WhichType(Сontent);
-
-    case 'object':    
+      WhichType(Сontent);
+      break;
+    case 'object':   
       if (Сontent instanceof Array) {
         for (let i = 0; i < Сontent.length; i++) {
           WhichType(Сontent[i]); 
         }
         return console.log('Успех');
       } else {
-          return console.log('Передан обьект, но не массив');
+        return console.log('Передан обьект, но не массив');
       }
-
     default:
       return console.log('Некорректные входные данные');
     }
