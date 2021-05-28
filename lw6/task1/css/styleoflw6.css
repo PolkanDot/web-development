@@ -1,22 +1,22 @@
 body
 {
-	   margin: 0 0 0 0;
+	margin: 0 0 0 0;
 }
 .menu
 {
-	   background-color: #ffffff;
-	   height: 35px;
+	background-color: #ffffff;
+	height: 35px;
 }
 
 .first_menu_button
 {
-	   margin: 0 0 0 24.95%;
-	   height: 27px;
-	   width: 99px;
+	margin-left: 24.95%;
+	height: 27px;
+	width: 99px;
     background: url("../img/about_me_icon_not_active.png") no-repeat 15px 12px; 
     background-size: 10%;
-	   float: left;
-	   padding: 8px 0 0 0;
+	float: left;
+	padding-top: 8px;
 }
 
 .first_menu_button:hover
@@ -32,65 +32,69 @@ body
 
 .first_menu_link
 {
-	   margin: 0 0 0 32px;
-	   text-decoration: none;
-	   font: 700 12px "Georgia";
-	   color: #333333;
+	margin-left: 32px;
+	text-decoration: none;
+	font: 700 12px "Georgia";
+	color: #333333;
 }
 
 .second_menu_button
 {
-	   height: 27px;
-	   float: left;
-	   padding: 8px 0 0 0;
-	   width: 112px;
-	   background: url("../img/hobby_icon.svg") no-repeat 14px 13px;
-	   background-size: 11%; 
+	height: 27px;
+	float: left;
+	padding-top: 8px;
+	width: 112px;
+	background: url("../img/hobby_icon.svg") no-repeat 15px 12px;
+	background-size: 10%; 
 }
 
 .second_menu_button:hover 
 {
-	   background-color: #15A98C;
+    background: url("../img/hobby_icon_active.svg") no-repeat 15px 12px; 
+    background-size: 10%;
+	background-color: #15A98C;
 }
 
 .second_menu_button:hover .second_menu_link
 {
-	   color: #F5F5F5;
+	color: #F5F5F5;
 }
 .second_menu_link
 {
-	   margin: 0 0 0 32px;
-	   text-decoration: none;
-	   font: 700 11px "Georgia";
-	   color: #333333;
+	margin-left: 32px;
+	text-decoration: none;
+	font: 700 11px "Georgia";
+	color: #333333;
 }
 
 .third_menu_button
 {
-	   height: 27px;
-	   float: left;
-	   padding: 8px 0 0 0;
-	   width: 160px;
-	   background: url("../img/video_icon.svg") no-repeat 14px 12px; 
-	   background-size: 7%;
+	height: 27px;
+	float: left;
+	padding-top: 8px;
+	width: 160px;
+	background: url("../img/video_icon.svg") no-repeat 11px 10px; 
+	background-size: 8.5%;
 }
 
 .third_menu_button:hover 
 {
+    background: url("../img/video_icon_active.svg") no-repeat 11px 10px; 
+    background-size: 8.5%;
     background-color: #15A98C;
 }
 
 .third_menu_button:hover .third_menu_link
 {
-	   color: #F5F5F5;
+	color: #F5F5F5;
 }
 
 .third_menu_link
 {
-	   margin: 0 0 0 32px;
-	   text-decoration: none;
-	   font: 700 11px "Georgia";
-	   color: #333333;
+	margin-left: 32px;
+	text-decoration: none;
+	font: 700 11px "Georgia";
+	color: #333333;
 }
 
 .menu_clear
@@ -100,16 +104,16 @@ body
 
 .info
 {
-	   background-color: #F9F9F9;
-	   margin: 0 auto;
-	   background: url("../img/sea.png") no-repeat 0px 0px; 
+	background-color: #F9F9F9;
+	margin: 0 auto;
+	background: url("../img/sea.png") no-repeat 0px 0px; 
     background-size: 100%;
 }
 
 .parts
 {
-	   width: 700px;
-	   margin: 0 auto;
+	width: 700px;
+	margin: 0 auto;
 }
 
 .left-part
@@ -120,12 +124,12 @@ body
 
 .left-part__portret
 {
-  	 width: 232px;
-	   height: 246px;
-	   border-radius: 3px;
+  	width: 232px;
+	height: 246px;
+	border-radius: 3px;
     background: url("../img/Portret.png") no-repeat -121px -44px;
     background-size: 217%;
-    margin: 0px 0px 32px 12px;
+    margin: 0 0 32px 12px;
 }
 
 .first-list
@@ -134,8 +138,8 @@ body
     line-height: 25px;
     color: #555555;
     font-family: "Georgia";
-    margin: 0 0 30px 29px;
-    padding: 10px 0 0 0;
+    margin: 0 0 30px 0;
+    padding: 10px 0 0 30px;
     font-weight: 600;
 }
 
@@ -145,8 +149,8 @@ body
     line-height: 25px;
     color: #555555;
     font-family: "Georgia";
-    margin: 0 0 0 26px;
-    padding: 8px 0 0 0;
+    margin: 0 0 0 6px;
+    padding: 8px 0 0 20px;
     font-weight: 600;
 }
 
@@ -157,22 +161,22 @@ body
 
 .second-list__second-third-line
 {
-    margin: 0 0 1px 0;
+    margin-bottom: 1px;
 }
 
 .left-part__list-name
 {
-	   font-size: 16px;
+	font-size: 16px;
     color: #15a98c; 
     font-family: "Open Sans";
-    margin: 0 0 0 13px;
+    margin-left: 13px;
     font-weight: 600;
 }
 
 .right-part
 {
-	   margin: 94px 0px 43px 0px;
-	   float: left;
+	margin: 94px 0 43px 0;
+	float: left;
 }
 
 .quote-box
@@ -182,7 +186,7 @@ body
 
 .quote-box__quote
 {
-	   width: 370px;
+	width: 370px;
     font-size: 20px;
     line-height: 30px;
     color: #FFFFFF;
@@ -196,7 +200,7 @@ body
     font-size: 12px;
     font-weight: 500;
     font-family: "Open Sans";
-    margin: 7px 0px 0px 25px;
+    margin: 7px 0 0 25px;
     color: #FFFFFF; 
 }
 
@@ -207,19 +211,19 @@ body
 
 .text__name
 {
-	   font-size: 33px;
+	font-size: 33px;
     line-height: 42px;
     color: #333333;
     font-weight: 700;
     font-family: "Open Sans";
-    padding: 0 0 0 3px;
+    padding-left: 3px;
     font-weight: 900;
-    margin: 0 0 0 2px; 
+    margin-left: 2px; 
 }
 
 .text__line
 {
-	   width: 42px;
+	width: 42px;
     height: 4px;
     border-radius: 3px;
     background: url("../img/quotes.png") no-repeat 22px 3px;
@@ -260,7 +264,7 @@ body
 
 .second-text__part
 {
-    margin: 0 0 0 0;
+    margin: 0;
 }
 
 .link
@@ -284,13 +288,14 @@ body
 
 .clear-info
 {
-	   clear: left;
+	clear: left;
 }
 
 .films_box
 {
-	   background-color: #F9F9F9;
-	   margin: 0 0 71px 0;
+	background-color: #F9F9F9;
+	margin-bottom: 71px;
+    padding-top: 22px;
 }
 
 .films
@@ -309,115 +314,116 @@ body
     color: #333333;
     font-weight: 400;
     font-family: "Open Sans";
-    margin: 22px 0 22px 252px;
+    margin: 0 0 22px 252px;
 }
 
 .film
 {
-	   width: 200px;
+	width: 200px;
 	   
 }
 
 .film__title
 {
     font-size: 15px;
-line-height: 32px;
-color: #333333;
-font-weight: 700;
-font-family: "Open Sans";
-margin: 0 0 8px 0;
+    line-height: 32px;
+    color: #333333;
+    font-weight: 700;
+    font-family: "Open Sans";
+    margin-bottom: 8px;
 }
 
 .film__description
 {
-	   width: 195px;
+	width: 195px;
     font-size: 11px;
-line-height: 20px;
-color: #555555;
-font-family: "Georgia";
+    line-height: 20px;
+    color: #555555;
+    font-family: "Georgia";
 }
 
 .fourth_film__description
 {
-	   width: 191px;
+	width: 191px;
     font-size: 11px;
-line-height: 20px;
-color: #555555;
-font-family: "Georgia";
+    line-height: 20px;
+    color: #555555;
+    font-family: "Georgia";
 }
 
 .film__first-preview
 {
-	   height: 133px;
-	   width: 200px;
-	   background: url("../img/Побег из Шоушенка.png") no-repeat -55px 8px;
-	   margin: 0 0 11px 0;
-	   border-radius: 3px;
-	   background-size: 143%;
-	   background-color: #464646;
+	height: 133px;
+	width: 200px;
+	background: url("../img/Побег из Шоушенка.png") no-repeat -55px 8px;
+	margin-bottom: 11px;
+	border-radius: 3px;
+	background-size: 143%;
+	background-color: #464646;
 }
 
 .film__second-preview
 {
-	   height: 133px;
-	   width: 200px;
-	   margin: 0 0 11px 0;
-	   background: url("../img/Наркоз.png") no-repeat -13px -18px;
-	   border-radius: 3px;
-	   background-size: 141%;
+	height: 133px;
+	width: 200px;
+	margin-bottom: 11px;
+	background: url("../img/Наркоз.png") no-repeat -13px -18px;
+	border-radius: 3px;
+	background-size: 141%;
 
 }
 
 .film__third-preview
 {
-	   height: 133px;
-	   width: 200px;
-	   margin: 0 0 11px 0;
-	   background: url("../img/Астрал.png") no-repeat -39px -8px;
-	   border-radius: 3px;
-	   background-size: 142%;
+	height: 133px;
+	width: 200px;
+	margin-bottom: 11px;
+	background: url("../img/Астрал.png") no-repeat -39px -8px;
+	border-radius: 3px;
+	background-size: 142%;
 
 }
 
 .film__fourth-preview
 {
-	   height: 133px;
-	   width: 200px;
-	   margin: 0 0 11px 0;
-	   background: url("../img/Гравитация.png") no-repeat -12px -39px;
-	   border-radius: 3px;
-	   background-size: 141%;
+	height: 133px;
+	width: 200px;
+	margin-bottom: 11px;
+	background: url("../img/Гравитация.png") no-repeat -12px -39px;
+	border-radius: 3px;
+	background-size: 141%;
 
 }
 
 .all-films-button
 {
-	   background-color: #15A98C;
-	   height: 26px;
-	   width: 116px;
-	   border-radius: 5px;
-	   margin: 32px 0 0 43.7%;
-	   padding: 8px 0 0 39px;
+	background-color: #15A98C;
+	height: 26px;
+	width: 116px;
+	border-radius: 5px;
+	margin: 32px auto;
+	padding: 8px 0 0 39px;
 }
 
 .all-films-button__link
 {
-	   font-size: 13px;
-	   color: #f5f5f5;
-font-family: "Georgia";
-	   color: #FFFFFF;
-	   text-decoration: none;
+	font-size: 13px;
+	color: #f5f5f5;
+    font-family: "Georgia";
+	color: #FFFFFF;
+	text-decoration: none;
 }
 
 .text_me
 {
-	   display: flex; 
+	display: flex; 
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 490px;
     margin: 0 auto;
 }
+
 .text-me__line_left
 {
     background: url(../img/line.png) no-repeat center center;
@@ -434,10 +440,11 @@ font-family: "Georgia";
 
 .text-me__name
 {
-	   font-size: 26px;
-color: #333333;
-font-weight: 300;
-font-family: "Open Sans";
+	font-size: 26px;
+    color: #333333;
+    font-weight: 300;
+    font-family: "Open Sans";
+    text-transform: uppercase;
 }
 
 .first-input
@@ -448,11 +455,11 @@ font-family: "Open Sans";
 }
 .your-name
 {
-	   font-size: 14px;
+	font-size: 14px;
     color: #333333;
-font-weight: 400;
-font-family: "Open Sans";
-    margin: 0 0 5px 0;
+    font-weight: 400;
+    font-family: "Open Sans";
+    margin-bottom: 5px;
 }
 
 .your-name::after
@@ -467,30 +474,31 @@ font-family: "Open Sans";
     height: 30px;
     border-color: #C9C9C9;
     padding: 1px 0 1px 13px; 
-    border-width: 1px;
-    border-bottom-width: 2px;  
+    border-width: 1px;  
     border-radius: 2px; 
+    box-shadow: none;
 }
 
 .name:focus
 {
-    border-color: #15A98B;
+    border: 1px solid #15A98B;
+    outline: none;
 }
 
 .second-input
 {
 	width: 380px; 
 	margin: 0 auto;
-	margin-top: 18px;
+	margin-top: 20px;
 }
 
 .your-email
 {
-	   font-size: 14px;
+	font-size: 14px;
     color: #333333;
-font-weight: 400;
-font-family: "Open Sans";
-    margin: 0 0 4px 0;
+    font-weight: 400;
+    font-family: "Open Sans";
+    margin-bottom: 4px;
 }
 
 .your-email::after
@@ -504,51 +512,51 @@ font-family: "Open Sans";
     width: 364px;
     height: 30px;
     padding: 1px 0 1px 13px; 
-    border-width: 1px;
-    border-top-width: 2px; 
+    border-width: 1px; 
     border-color: #A5A5A5; 
     border-radius: 3px;       
 }
 
 .email:focus
 {
-    border-color: #15A98B;
+    border: 1px solid #15A98B;
+    outline: none;
 }
 .third-input
 {
-	   width: 380px; 
+	width: 380px; 
 	margin: 0 auto;
 	margin-top: 19px;
 }
 
 .your-country
 {
-	   font-size: 14px;
+	font-size: 14px;
     color: #333333;
-font-weight: 400;
-font-family: "Open Sans";
-    margin: 0 0 5px 0;
+    font-weight: 400;
+    font-family: "Open Sans";
+    margin-bottom: 5px;
 }
 
 .country
 {
-	   font-size: 13px;
-	   color: #555555;
+	font-size: 13px;
+	color: #555555;
     width: 380px;
     height: 35px;
-    padding: 0 0 0 12px; 
+    padding-left: 12px; 
     appearance: none;
     background: url('../img/arrow_down.png') no-repeat 349px center;
     background-size: 4.5%;
-        border-width: 1px;
-    border-top-width: 2px; 
+    border-width: 1px; 
     border-color: #A5A5A5; 
     border-radius: 3px;
 }
 
 .country:focus
 {
-    border-color: #15A98B;
+    border: 1px solid #15A98B;
+    outline: none;
 }
 .fourth-input
 {
@@ -559,30 +567,30 @@ font-family: "Open Sans";
 
 .your-gender
 {
-	   font-size: 14px;
+	font-size: 14px;
     color: #333333;
-font-weight: 400;
-font-family: "Open Sans";
-margin: 0 0 10px 2px;
+    font-weight: 400;
+    font-family: "Open Sans";
+    margin: 0 0 10px 2px;
 }
 .human
 {
-	   font-size: 13px;
-	   color: #333333;
-font-weight: 400;
-font-family: "Open Sans";
-    margin: 0 0 0 0;
+	font-size: 13px;
+	color: #333333;
+    font-weight: 400;
+    font-family: "Open Sans";
+    margin: 0;
 }
 
 .first-radio
 {
-	   float: left;
-	   margin: 0 25px 0 0;
+	float: left;
+	margin-right: 25px;
 }
 
 .second-radio
 {
-	   float: left;
+	float: left;
 }
 
 .gender
@@ -593,7 +601,7 @@ font-family: "Open Sans";
 
 .clear-fourth-input
 {
-	   clear: left;
+	clear: left;
 }
 
 .five-input
@@ -604,11 +612,11 @@ font-family: "Open Sans";
 }
 .your-message
 {
-	   font-size: 14px;
+	font-size: 14px;
     color: #333333;
-font-weight: 400;
-font-family: "Open Sans";
-    margin: 0 0 3px 0;
+    font-weight: 400;
+    font-family: "Open Sans";
+    margin-bottom: 3px;
 }
 
 .your-message::after
@@ -619,15 +627,20 @@ font-family: "Open Sans";
 
 .message
 {
-	   resize: none;
-	       border-width: 1px; 
+	resize: none;
+	border-width: 1px; 
     border-color: #C9C9C9; 
     border-radius: 3px;
+    padding: 8px 0 6px 10px;
+    font-weight: 400;
+    font-family: "Open Sans";
+    font-size: 14px;
 }
 
 .message:focus
 {
-    border-color: #15A98B;
+    border: 1px solid #15A98B;
+    outline: none;
 }
 .end-of-input
 {
@@ -637,30 +650,30 @@ font-family: "Open Sans";
 
 .send
 {
-	   background-color: #15A98C;
-	   margin: 28px 0 0 0;
-	   height: 34px;
-	   width: 155px;
-       padding-top: 1px;
-	   border-radius: 3px;
-	   font-size: 13px;
-	   color: #f5f5f5;
+	background-color: #098D71;
+	margin-top: 32px;
+	height: 34px;
+	width: 155px;
+    padding-top: 1px;
+	border-radius: 3px;
+	font-size: 13px;
+	color: #f5f5f5;
     font-family: "Georgia";
-	   text-decoration: none;
-	   border: none;
+	text-decoration: none;
+	border: none;
 }
 
 .end-of-page
 {
-	   background-color: #F9F9F9;
-	   height: 30px;
-	   margin: 30px 0 0 0;
-	   padding: 22px ;
+	background-color: #F9F9F9;
+	height: 50px;
+	margin-top: 35px;
+    padding-top: 18px;
 }
 
 .pgtu
 {
-	   width: 500px;
+	width: 500px;
     font-size: 11px;
     color: #555555;
     font-family: "Georgia";
