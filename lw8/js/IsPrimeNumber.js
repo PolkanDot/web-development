@@ -1,38 +1,43 @@
-function WhichType(Digit) {
-  let Identifier;
-  for (let i = 2; i <= Digit; i++) {
-    Identifier = true;
+function determiningOfType(digit) {
+  let prime;
+  for (let i = 2; i <= digit; i++) {
+    prime = true;
     for (let j = 2; j < i; j++) {
       if (i % j == 0) {
-        Identifier = false;
+        prime = false;
         break;
       }
     }
   }
-  if (Identifier) {
-    console.log('Результат:', Digit, 'is prime number');
+  if (prime) {
+    console.log('Результат:', digit, 'is prime number');
   } else {
-    console.log('Результат:', Digit, 'is not prime number');
+    console.log('Результат:', digit, 'is not prime number');
   }
 }
 
-function isPrimeNumber(Сontent) {
-  switch (typeof Сontent) {
+function isPrimeNumber(content) {
+  let output = '';
+  switch (typeof content) {
     case 'number':
-      WhichType(Сontent);
+      determiningOfType(content);
       break;
     case 'object':   
-      if (Сontent instanceof Array) {
-        for (let i = 0; i < Сontent.length; i++) {
-          WhichType(Сontent[i]); 
-        }
-        return console.log('Успех');
+      if (content instanceof Array) {
+        for (let i = 0; i < content.length; i++) {
+          determiningOfType(content[i]); 
+        }  
       } else {
-        return console.log('Передан обьект, но не массив');
+        output = 'Передан обьект, но не массив';
       }
+      break;
     default:
-      return console.log('Некорректные входные данные');
-    }
+      output = 'Некорректные входные данные';
+      break;
+    } 
+  if (output != '') {
+    console.log(output);
+  }   
 }
 
 console.log('Введите: isPrimeNumber(<значение>)');
