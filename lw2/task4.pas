@@ -1,4 +1,4 @@
-PROGRAM Parameters(INPUT, OUTPUT);
+﻿PROGRAM Parameters(INPUT, OUTPUT);
 USES DOS;
 
 FUNCTION GetQueryStringParameter(Key: STRING): STRING;
@@ -15,9 +15,9 @@ BEGIN
       LastSymbol := POS('&', InputData);
       IF LastSymbol <> 0
       THEN
-        DELETE(InputData, LastSymbol, LENGTH(InputData) - (LastSymbol-1));
-      END
-    ELSE
+        DELETE(InputData, LastSymbol, LENGTH(InputData) - (LastSymbol - 1));
+    END
+  ELSE
       InputData := 'Not found';
   GetQueryStringParameter := InputData
 END;
