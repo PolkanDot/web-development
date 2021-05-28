@@ -7,8 +7,8 @@
 .left-part__portret
 {
   	width: 232px;
-	  height: 246px;
-	  border-radius: 5px;
+	height: 246px;
+	border-radius: 5px;
     background: url('C:/Users/Polka Dot/FE/web-development/lw5/task1/img/Portret.png') no-repeat -121px -44px;
     background-size: 217%;
     margin: 0px 0px 32px 98px;
@@ -55,12 +55,12 @@
 
 .first-list__first-fourth-line
 {
-    margin: 0 0 0 0;
+    margin: 0;
 }
 
 .second-list__second-first-line
 {
-    margin: 0 0 0 0;
+    margin: 0;
 }
 
 .second-list__second-second-line
@@ -75,7 +75,7 @@
 
 .left-part__list-name
 {
-	  font-size: 16px;
+	font-size: 16px;
     color: #15a98c; 
     font-family: "Open Sans";
     margin: 0 0 0 99px;
@@ -84,14 +84,14 @@
 
 .right-part
 {
-	  margin: 94px 0px 50px 0px;
+    margin: 94px 0 50px 0;
     float: left;
 }
 
 .quote-box
 {
     margin: 0 0 0 0;
-    padding: 53px 0 0 0;
+    padding-top: 53px;
     background: url('C:/Users/Polka Dot/FE/web-development/lw5/task1/img/quotes.png') no-repeat 22px 3px;
     background-size: 24%;
 }
@@ -121,7 +121,7 @@
 
 .text__name
 {
-	  font-size: 33px;
+	font-size: 33px;
     line-height: 42px;
     color: #333333;
     font-family: "Open Sans";
@@ -132,7 +132,7 @@
 
 .text__line
 {
-	  width: 42px;
+	width: 42px;
     height: 4px;
     border-radius: 3px;
     background-color: #45C3AA;
@@ -190,5 +190,5 @@
 }
  .clear
 {
-     clear: left;
+    clear: left;
 }
