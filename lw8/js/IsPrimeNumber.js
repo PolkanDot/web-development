@@ -40,4 +40,9 @@ function isPrimeNumber(content) {
   }   
 }
 
+function func(a) {
+  let b = a + a;
+  return(b + a);
+} 
+
 console.log('Введите: isPrimeNumber(<значение>)');
